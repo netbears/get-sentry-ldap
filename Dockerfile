@@ -1,4 +1,4 @@
-FROM getsentry/sentry:20.9.0
+FROM getsentry/sentry:20.10.1
 
 RUN  apt-get update && \
         apt-get install -y build-essential python3-dev python2.7-dev \
